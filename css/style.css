@@ -1,0 +1,23 @@
+.bg-body-tertiary{
+    background-color: #000 !important;
+    opacity: 80%;
+}
+
+.navbar{
+    .nav-link {
+        color: white;
+        
+    }
+    .ms-auto{
+        margin-right: 50px;
+    }
+    
+    .nav-item{
+        margin: 10px 20px 10px 20px;
+    }
+}
+
+body{
+    background-color: #7B7B7B;
+    padding-top: 85px;
+}

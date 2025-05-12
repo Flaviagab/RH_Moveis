@@ -1,27 +1,31 @@
-.bg-body-tertiary{
-    background-color: #000 !important;
-    opacity: 80%;
+.didact-gothic-regular {
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #E1EFE6;
 }
 
-.navbar{
-    .nav-link {
-        color: white;
-        
-    }
-    .ms-auto{
-        margin-right: 50px;
-    }
-    
-    .nav-item{
-        margin: 10px 20px 10px 20px;
-        border: 1px solid white;
-        border-radius: 100px;
-        padding: 1px 7px;
-    }
+.cor-fonte{
+  color: #455f4e;
 }
 
 body{
-    background-color: #131C22;
-    color: white;
-    padding-top: 85px;
+    background-color: #160C28;
+}
+
+header{
+      background-color: #160C28;
+}
+
+.nav-link{
+  margin: 20px 40px 20px 40px;
+  font-size: 20px;
+  padding: 1px;
+  transition: all 0.5s;
+}
+.nav-link:hover{
+  color: #EFCB68;
+}
+.nav-link{
+  color:#E1EFE6;
 }

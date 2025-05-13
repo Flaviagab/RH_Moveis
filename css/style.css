@@ -2,19 +2,30 @@
   font-family: "Didact Gothic", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #E1EFE6;
-}
-
-.cor-fonte{
-  color: #455f4e;
-}
-
-body{
-    background-color: #160C28;
 }
 
 header{
-      background-color: #160C28;
+  a{
+    margin-top: 10px;
+  }
+  position: relative;  
+  display: inline-block;
+}
+
+header .logo img {
+  margin: 10px 20px;
+  width: 60px;
+  height: 50px;
+  position: absolute;
+  left: 20px;
+}
+
+nav{
+    background-color: #160C28;
+}
+
+#navbar {
+    transition: top 0.3s;
 }
 
 .nav-link{
@@ -28,4 +39,42 @@ header{
 }
 .nav-link{
   color:#E1EFE6;
+}
+
+body{
+  margin-top: 70px;
+  background-image: linear-gradient(to bottom, #160C28 650px, #E1EFE6 900px);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #E1EFE6;
+}
+
+.imagem-banner{
+  width: 500px;
+  height: 350px;
+  border-radius: 50px;
+}
+
+.banner{
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  
+  img{
+    margin-right: 80px;
+  }
+
+  h1{
+    text-align: center;
+  }
+}
+
+.conteudo-banner{
+  display: flex;
+  flex-direction: column;
+  
+  button{
+    align-self: center;
+    margin-top: 10px;
+  }
 }

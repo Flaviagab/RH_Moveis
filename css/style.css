@@ -42,11 +42,11 @@ nav{
 }
 
 body{
-  margin-top: 70px;
+  margin-top: 20px;
   background-image: linear-gradient(to bottom, #160C28 650px, #E1EFE6 900px);
   background-repeat: no-repeat;
   background-size: 100%;
-  color: #E1EFE6;
+  color: #160C28;
 }
 
 .imagem-banner{
@@ -60,7 +60,7 @@ body{
   align-items: center;
   justify-content: space-between;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 300px;
   
   img{
     margin-right: 80px;
@@ -74,6 +74,8 @@ body{
 .conteudo-banner{
   display: flex;
   flex-direction: column;
+  margin-bottom: 50px;
+  color: #E1EFE6;
   button{
     font-size: 20px;
     padding: 10px 25px;
@@ -111,3 +113,85 @@ margin-left: 100px;
 }
 
 }
+
+.titulo{
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 150px;
+}
+
+.titulo-carrossel{
+  font-weight: 600;
+  text-align: center;
+  font-size: 28px;
+  margin: 30px;
+}
+
+.imagem-carrossel{
+  width: 100%;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.carrossel-cozinha {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.botaovermais{
+  display: flex;
+  justify-content: center;
+}
+
+.botao{
+  font-size: 18px;
+  padding: 10px 25px;
+  margin-top: 10px;
+  border-radius: 30px;
+  transition: all 0.5s;
+  background-color: #EFCB68;
+  color: #160C28;
+  margin: 35px;
+  &:hover{
+    background-color: #aa9456;
+    color: #160C28;
+  }
+}
+
+.quemsomos{
+  margin-top: 30px;
+  position: relative;
+  .imagem-banner-sobre{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+  }
+
+   .baixo-sobre{
+    margin: 10px;
+    border-radius: 40px;
+    position: absolute;
+    top: 70px;
+    left: -50px;
+    z-index: 2;
+    max-width: 400px;
+    height: 300px;
+  }
+
+
+  .conteudo-sobre{
+    margin: 40px;
+    height: 300px;
+    max-width: 400px;
+    position: absolute;
+    z-index: 3;
+    background-color: #EFCB68;
+    border-radius: 40px;
+    padding: 45px;
+  }
+
+}
+
+
+

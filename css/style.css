@@ -4,11 +4,12 @@
   font-style: normal;
 }
 
-header{
-  a{
+header {
+  a {
     margin-top: 10px;
   }
-  position: relative;  
+
+  position: relative;
   display: inline-block;
 }
 
@@ -20,28 +21,30 @@ header .logo img {
   left: 20px;
 }
 
-nav{
-    background-color: #160C28;
+nav {
+  background-color: #160C28;
 }
 
 #navbar {
-    transition: top 0.3s;
+  transition: top 0.3s;
 }
 
-.nav-link{
+.nav-link {
   margin: 20px 40px 20px 40px;
   font-size: 20px;
   padding: 1px;
   transition: all 0.5s;
 }
-.nav-link:hover{
+
+.nav-link:hover {
   color: #EFCB68;
 }
-.nav-link{
-  color:#E1EFE6;
+
+.nav-link {
+  color: #E1EFE6;
 }
 
-body{
+body {
   margin-top: 20px;
   background-image: linear-gradient(to bottom, #160C28 650px, #E1EFE6 900px);
   background-repeat: no-repeat;
@@ -49,34 +52,35 @@ body{
   color: #160C28;
 }
 
-.imagem-banner{
+.imagem-banner {
   width: 500px;
   height: 350px;
   border-radius: 40px;
 }
 
-.banner{
-  display: flex; 
+.banner {
+  display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 100px;
   margin-bottom: 300px;
-  
-  img{
+
+  img {
     margin-right: 80px;
   }
 
-  h1{
+  h1 {
     text-align: center;
   }
 }
 
-.conteudo-banner{
+.conteudo-banner {
   display: flex;
   flex-direction: column;
   margin-bottom: 50px;
   color: #E1EFE6;
-  button{
+
+  button {
     font-size: 20px;
     padding: 10px 25px;
     align-self: center;
@@ -84,7 +88,8 @@ body{
     border: #EFCB68 1px solid;
     border-radius: 30px;
     transition: all 0.5s;
-    &:hover{
+
+    &:hover {
       background-color: #EFCB68;
       color: #160C28;
       border: #EFCB68 1px solid;
@@ -92,45 +97,46 @@ body{
   }
 }
 
-.container-imagem{
-position: relative;
-margin: 0 auto;
-width: 600px;
-height: 400px;
-margin-left: 100px;
-.cima{
+.container-imagem {
+  position: relative;
+  margin: 0 auto;
+  width: 600px;
+  height: 400px;
+  margin-left: 100px;
+
+  .cima {
     position: absolute;
     top: 0px;
     right: 0px;
     z-index: 2;
-}
+  }
 
-.baixo{
-   position: absolute;
-    top: 40px; 
-    right: -40px;  
+  .baixo {
+    position: absolute;
+    top: 40px;
+    right: -40px;
     z-index: 1;
-}
+  }
 
 }
 
-.titulo{
+.titulo {
   text-align: center;
   font-weight: 600;
   margin-bottom: 150px;
 }
 
-.titulo-carrossel{
+.titulo-carrossel {
   font-weight: 600;
   text-align: center;
   font-size: 28px;
   margin: 30px;
 }
 
-.imagem-carrossel{
+.imagem-carrossel {
   width: 100%;
   height: 400px;
-  border-radius: 20px;
+  object-fit: cover;
 }
 
 .carrossel-cozinha {
@@ -139,12 +145,50 @@ margin-left: 100px;
   align-items: center;
 }
 
-.botaovermais{
+#carouselExample {
+  padding: 30px 150px;
+}
+
+#carouselExample .carousel-control-prev,
+#carouselExample .carousel-control-next {
+  transition: opacity 0.2s;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 70px;
+  height: 70px;
+  padding: 90px 10px;
+}
+
+#carouselExample .carousel-control-prev {
+  left: 70px;
+}
+
+#carouselExample .carousel-control-next {
+  right: 70px;
+}
+
+#carouselExample .carousel-control-prev:hover,
+#carouselExample .carousel-control-next:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+#carouselExample .carousel-control-prev-icon,
+#carouselExample .carousel-control-next-icon {
+  width: 60px;
+  height: 60px;
+  filter: invert(1);
+}
+
+
+
+.botaovermais {
   display: flex;
   justify-content: center;
 }
 
-.botao{
+.botao {
   font-size: 18px;
   padding: 10px 25px;
   margin-top: 10px;
@@ -153,22 +197,24 @@ margin-left: 100px;
   background-color: #EFCB68;
   color: #160C28;
   margin: 35px;
-  &:hover{
+
+  &:hover {
     background-color: #aa9456;
     color: #160C28;
   }
 }
 
-.quemsomos{
+.quemsomos {
   margin-top: 30px;
   position: relative;
-  .imagem-banner-sobre{
+
+  .imagem-banner-sobre {
     width: 100%;
     position: absolute;
     z-index: 1;
   }
 
-   .baixo-sobre{
+  .baixo-sobre {
     margin: 10px;
     border-radius: 40px;
     position: absolute;
@@ -180,7 +226,7 @@ margin-left: 100px;
   }
 
 
-  .conteudo-sobre{
+  .conteudo-sobre {
     margin: 40px;
     height: 300px;
     max-width: 400px;
@@ -195,3 +241,30 @@ margin-left: 100px;
 
 
 
+/*ainda preciso arrumar a responsividade */
+
+@media (max-width: 768px) {
+  .carrossel-cozinha .carousel-item {
+    width: calc(100% - 100px);
+  }
+
+  #carouselExample {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #carouselExample .carousel-control-prev {
+    left: 5px;
+
+    #carouselExample .carousel-control-next {
+      right: 5px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .carrossel-cozinha .carousel-item {
+      width: 100%;
+    }
+  }
+
+}

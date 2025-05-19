@@ -80,7 +80,7 @@ body {
   margin-bottom: 50px;
   color: #E1EFE6;
 
-  button {
+  a {
     font-size: 20px;
     padding: 10px 25px;
     align-self: center;
@@ -129,7 +129,7 @@ body {
 .titulo-carrossel {
   font-weight: 600;
   text-align: center;
-  font-size: 28px;
+  font-size: 40px;
   margin: 30px;
 }
 
@@ -139,18 +139,17 @@ body {
   object-fit: cover;
 }
 
-.carrossel-cozinha {
+.carrossel {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#carouselExample {
-  padding: 30px 150px;
+#carouselExample, #carouselExample2, #carouselExample3{
+  padding: 10px 150px;
 }
 
-#carouselExample .carousel-control-prev,
-#carouselExample .carousel-control-next {
+#carouselExample .carousel-control-prev, #carouselExample .carousel-control-next, #carouselExample2 .carousel-control-prev, #carouselExample2 .carousel-control-next, #carouselExample3 .carousel-control-prev, #carouselExample3 .carousel-control-next {
   transition: opacity 0.2s;
   top: 50%;
   transform: translateY(-50%);
@@ -159,23 +158,27 @@ body {
   padding: 90px 10px;
 }
 
-#carouselExample .carousel-control-prev {
+#carouselExample .carousel-control-prev, #carouselExample2 .carousel-control-prev, #carouselExample3 .carousel-control-prev {
   left: 70px;
 }
 
-#carouselExample .carousel-control-next {
+#carouselExample .carousel-control-next, #carouselExample2 .carousel-control-next, #carouselExample3 .carousel-control-next {
   right: 70px;
 }
 
 #carouselExample .carousel-control-prev:hover,
-#carouselExample .carousel-control-next:hover {
+#carouselExample .carousel-control-next:hover, #carouselExample2 .carousel-control-prev:hover,
+#carouselExample2 .carousel-control-next:hover, #carouselExample3 .carousel-control-prev:hover,
+#carouselExample3 .carousel-control-next:hover {
   opacity: 1;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.295);
 
 }
 
 #carouselExample .carousel-control-prev-icon,
-#carouselExample .carousel-control-next-icon {
+#carouselExample .carousel-control-next-icon, #carouselExample2 .carousel-control-prev-icon,
+#carouselExample2 .carousel-control-next-icon, #carouselExample3 .carousel-control-prev-icon,
+#carouselExample3 .carousel-control-next-icon {
   width: 60px;
   height: 60px;
   filter: invert(1);
@@ -189,15 +192,14 @@ body {
 }
 
 .botao {
-  font-size: 18px;
+  font-size: 20px;
   padding: 10px 25px;
-  margin-top: 10px;
   border-radius: 30px;
   transition: all 0.5s;
   background-color: #EFCB68;
   color: #160C28;
-  margin: 35px;
-
+  margin-top: 20px;
+  margin-bottom: 50px;
   &:hover {
     background-color: #aa9456;
     color: #160C28;
@@ -208,6 +210,11 @@ body {
   margin-top: 30px;
   position: relative;
 
+  .conteudo-sobre{
+    position: relative;
+    margin-left: 80px;
+  }
+
   .imagem-banner-sobre {
     width: 100%;
     position: absolute;
@@ -215,18 +222,17 @@ body {
   }
 
   .baixo-sobre {
-    margin: 10px;
     border-radius: 40px;
     position: absolute;
-    top: 70px;
-    left: -50px;
+    top: 80px;
+    left: -10px;
     z-index: 2;
     max-width: 400px;
     height: 300px;
   }
 
 
-  .conteudo-sobre {
+  .texto-sobre {
     margin: 40px;
     height: 300px;
     max-width: 400px;
@@ -236,6 +242,8 @@ body {
     border-radius: 40px;
     padding: 45px;
   }
+
+  
 
 }
 

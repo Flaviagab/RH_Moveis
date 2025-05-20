@@ -65,7 +65,6 @@
       <div class="carrossel">
         <h3 data-aos="fade-up" class="titulo-carrossel">Cozinha</h3>
 
-
         <div data-aos="fade-up" class="carrossel-cozinha">
           <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
@@ -243,11 +242,41 @@
             <img class="baixo-sobre" src="../imagens/colorblue.jpg" alt="">
           </div>
         </div>
-
       </div>
     </div>
 
   </main>
+
+  <footer>
+    <div class="footer">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <div class="conteudo-footer">
+              <p>Telefone: (44) 12345-1234</p>
+              <p>Endereço: Rua</p>
+              <p>Todos os direitos reservados</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="links">
+              <a class="icon" href="https://www.instagram.com/_rh_moveis" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a class="icon" href="" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+              <a class="icon" href="https://www.facebook.com/rhmoveisplanejado" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
 
 
 
@@ -260,6 +289,7 @@
   <script>
     AOS.init();
   </script>
+  <script src="https://kit.fontawesome.com/2e7313998e.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

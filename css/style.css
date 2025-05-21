@@ -319,11 +319,13 @@ footer {
   #carouselExample .carousel-control-prev {
     left: 5px;
 
-    #carouselExample .carousel-control-next {
-      right: 5px;
-    }
+   
   }
 
+   #carouselExample .carousel-control-next {
+      right: 5px;
+    }
+    
   @media (max-width: 576px) {
     .carrossel-cozinha .carousel-item {
       width: 100%;

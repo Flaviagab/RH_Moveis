@@ -252,7 +252,6 @@ body {
     height: 300px;
   }
 
-
   .texto-sobre {
     margin: 40px;
     height: 300px;
@@ -265,10 +264,9 @@ body {
   }
 }
 
-
 footer {
   margin-top: 500px;
-  padding: 40px;
+  padding: 40px 30px 15px 30px;
   background-color: #160C28;
   color: #E1EFE6;
 
@@ -284,7 +282,7 @@ footer {
   }
 
   .links {
-    margin-top: 40px;
+    margin-top: 30px;
   }
 
   .conteudo-footer {

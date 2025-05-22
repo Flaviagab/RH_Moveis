@@ -1,8 +1,22 @@
 body{
-    width: 100%;
+  background-color: #160C28;
+}
+.erro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #E1EFE6;
+  min-height: 50vh;
 }
 
-.text-erro{
-  color: #E1EFE6;
-  margin-top: 100px;
+.botao-erro{
+  a {
+  border: #EFCB68 1px solid;
+}
+a:hover{
+  border: #EFCB68 1px solid;
+
+}
 }

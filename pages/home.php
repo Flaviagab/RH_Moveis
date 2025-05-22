@@ -64,7 +64,7 @@
           </div>
         </div>
         <div class="botaovermais">
-          <button type="button" class="botao btn btn-outline-light">Ver mais</button>
+          <a href="produto" class="botao btn btn-outline-light">Ver mais</a>
         </div>
       </div>
     </div>
@@ -120,7 +120,8 @@
         </div>
 
         <div class="botaovermais">
-          <button type="button" class="botao btn btn-outline-light">Ver mais</button>
+          <a href="produto" class="botao btn btn-outline-light">Ver mais</a>
+
         </div>
       </div>
     </div>
@@ -174,7 +175,7 @@
         </div>
 
         <div class="botaovermais">
-          <button type="button" class="botao btn btn-outline-light">Ver mais</button>
+          <a href="produto" class="botao btn btn-outline-light">Ver mais</a>
         </div>
       </div>
     </div>

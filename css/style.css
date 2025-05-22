@@ -265,7 +265,6 @@ body {
 }
 
 footer {
-  margin-top: 500px;
   padding: 40px 30px 15px 30px;
   background-color: #160C28;
   color: #E1EFE6;
@@ -292,6 +291,10 @@ footer {
   .icon {
     font-size: 30px;
   }
+}
+
+.home footer {
+  margin-top: 500px;
 }
 
 

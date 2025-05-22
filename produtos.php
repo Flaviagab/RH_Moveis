@@ -1,0 +1,4 @@
+<?php
+    $produto = [
+        ["nome" => "Cozinha"]
+    ];

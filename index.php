@@ -55,6 +55,8 @@
 
       $pages = "pages/{$pages}.php";
 
+      include "produtos.php";
+
       if(file_exists($pages)){
         include $pages;
       }else{

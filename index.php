@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>RH Móveis Planejados</title>
 
+  <base href="http://localhost/1A/RH_Moveis/">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
@@ -24,12 +26,12 @@
     <nav id="navbar" class="fixed-top">
       <ul class="nav nav-underline justify-content-center">
         <li>
-          <a href="home" class="logo ">
+          <a href="#" class="logo ">
             <img src="imagens/logo.png" alt="Logo da empresa RH Móveis Planejados">
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" title="Home" href="home">Home</a>
+          <a class="nav-link" title="Home" href="#">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" title="Produtos" href="#produtos">Produtos</a>
@@ -71,15 +73,15 @@
     <div class="footer">
       <div class="container text-center">
         <div class="row">
-          <div class="col">
+          <div class="col-7">
             <div class="conteudo-footer">
               <p>Telefone: (44) 99860-8027</p>
-              <p>Endereço: Rua</p>
+              <p>Endereço: R. Francisco Preisner, 159 - Jardim Santa Cruz, Campo Mourão - PR, 87309-600</p>
               <p>Todos os direitos reservados</p>
             </div>
           </div>
 
-          <div class="col">
+          <div class="col-5">
             <div class="links">
               <a class="icon" href="https://www.instagram.com/_rh_moveis" target="_blank">
                 <i class="fa-brands fa-instagram"></i>

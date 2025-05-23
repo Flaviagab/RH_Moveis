@@ -44,9 +44,11 @@ nav {
   color: #E1EFE6;
 }
 
-body {
-  margin-top: 20px;
-  background-image: linear-gradient(to bottom, #160C28 650px, #E1EFE6 900px);
+body{
+  background-color: #160C28;
+}
+.body {
+  background-image: linear-gradient(to bottom, #160C28 600px, #E1EFE6 900px);
   background-repeat: no-repeat;
   background-size: 100%;
   color: #160C28;
@@ -216,10 +218,12 @@ body {
   color: #160C28;
   margin-top: 20px;
   margin-bottom: 50px;
+  border: 1px solid #EFCB68;
 
   &:hover {
     background-color: #aa9456;
     color: #160C28;
+    border: 1px solid #EFCB68;
   }
 }
 
@@ -320,13 +324,13 @@ footer {
   #carouselExample .carousel-control-prev {
     left: 5px;
 
-   
+
   }
 
-   #carouselExample .carousel-control-next {
-      right: 5px;
-    }
-    
+  #carouselExample .carousel-control-next {
+    right: 5px;
+  }
+
   @media (max-width: 576px) {
     .carrossel-cozinha .carousel-item {
       width: 100%;

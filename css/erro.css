@@ -1,6 +1,3 @@
-body{
-  background-color: #160C28;
-}
 .erro {
   display: flex;
   flex-direction: column;
@@ -17,6 +14,11 @@ body{
 }
 a:hover{
   border: #EFCB68 1px solid;
-
 }
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }

@@ -58,10 +58,6 @@ body {
         transition: all 0.5s;
     }
 
-    a:hover {
-        color: #E1EFE6;
-    }
-
     .icon {
         text-align: center;
         color: #160C28;

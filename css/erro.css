@@ -1,3 +1,6 @@
+body{
+  background-color: #160C28;
+}
 .erro {
   display: flex;
   flex-direction: column;
@@ -9,12 +12,21 @@
 }
 
 .botao-erro{
-  a {
-  border: #EFCB68 1px solid;
-}
-a:hover{
-  border: #EFCB68 1px solid;
-}
+ a {
+    font-size: 20px;
+    padding: 10px 25px;
+    align-self: center;
+    margin-top: 10px;
+    border: #EFCB68 1px solid;
+    border-radius: 30px;
+    transition: all 0.5s;
+
+    &:hover {
+      background-color: #EFCB68;
+      color: #160C28;
+      border: #EFCB68 1px solid;
+    }
+  }
 }
 
 footer{

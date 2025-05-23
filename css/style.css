@@ -44,11 +44,14 @@ nav {
   color: #E1EFE6;
 }
 
+
 body{
-  background-color: #160C28;
+  background-color: #E1EFE6;
 }
 .body {
-  background-image: linear-gradient(to bottom, #160C28 500px, #E1EFE6 900px);
+  min-height: 100vh;
+  padding-top: 50px;
+  background-image: linear-gradient(to bottom, #160C28 18%, #E1EFE6 30%);
   background-repeat: no-repeat;
   background-size: 100%;
   color: #160C28;
@@ -65,7 +68,7 @@ body{
   align-items: center;
   justify-content: space-between;
   margin-top: 100px;
-  margin-bottom: 400px;
+  margin-bottom: 300px;
 
   img {
     margin-right: 80px;

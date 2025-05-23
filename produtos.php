@@ -1,4 +1,4 @@
 <?php
     $produto = [
-        ["nome" => "Cozinha"]
+        ["nome" => "Cozinha", "foto" => "imagens/cozinha-verde.jpg"]
     ];

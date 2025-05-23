@@ -2,7 +2,7 @@
 <div class="row">
     <?php
         foreach ($produto as $indice => $valor){
-            echo "<div class='col-12 col-md-4'>
+            echo "<div class='col-12 col-md-3'>
             <p class='text-center'>
                 {$valor['nome']}
                 <br>

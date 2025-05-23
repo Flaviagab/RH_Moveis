@@ -34,7 +34,7 @@
           <a class="nav-link" title="Home" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" title="Produtos" href="#produtos">Produtos</a>
+          <a class="nav-link" title="Produtos" href="produto">Produtos</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" title="Sobre" href="#sobre">Sobre</a>

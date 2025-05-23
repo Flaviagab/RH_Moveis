@@ -70,7 +70,6 @@
   </main>
 
   <footer>
-    <div class="footer">
       <div class="container text-center">
         <div class="row">
           <div class="col-7">
@@ -96,7 +95,6 @@
           </div>
         </div>
       </div>
-    </div>
   </footer>
 
 

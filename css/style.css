@@ -48,7 +48,7 @@ body{
   background-color: #160C28;
 }
 .body {
-  background-image: linear-gradient(to bottom, #160C28 600px, #E1EFE6 900px);
+  background-image: linear-gradient(to bottom, #160C28 500px, #E1EFE6 900px);
   background-repeat: no-repeat;
   background-size: 100%;
   color: #160C28;
@@ -65,7 +65,7 @@ body{
   align-items: center;
   justify-content: space-between;
   margin-top: 100px;
-  margin-bottom: 300px;
+  margin-bottom: 400px;
 
   img {
     margin-right: 80px;
@@ -232,6 +232,7 @@ body{
 }
 
 .quemsomos {
+  min-height: 400px;
   margin-top: 30px;
   position: relative;
 
@@ -241,6 +242,7 @@ body{
   }
 
   .imagem-banner-sobre {
+    margin-bottom: 10px;
     width: 100%;
     position: absolute;
     z-index: 1;
@@ -268,11 +270,13 @@ body{
   }
 }
 
+
+
 footer {
   padding: 40px 30px 15px 30px;
   background-color: #160C28;
   color: #E1EFE6;
-
+  
   a {
     text-decoration: none;
     padding: 20px;
@@ -297,9 +301,6 @@ footer {
   }
 }
 
-.home footer {
-  margin-top: 500px;
-}
 
 
 

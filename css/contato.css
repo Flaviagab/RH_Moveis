@@ -11,20 +11,26 @@ body {
     justify-content: center;
 
     form {
+        width: 100%;
         font-size: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
 
         input {
+            width: 60%;
             padding: 10px;
-            border: 1px solid #160C28;
+            border: 1px solid #7c7b7e;
             border-radius: 5px;
             margin-bottom: 25px;
         }
+        label{
+            justify-items: left;
+        }
 
         textarea {
-            border: 1px solid #160C28;
+            width: 60%;
+            border: 1px solid #7c7b7e;
             border-radius: 5px;
             margin-bottom: 25px;
             padding: 15px;
@@ -61,7 +67,7 @@ body {
         color: #160C28;
         font-size: 20px;
         background-color: #EFCB68;
-        margin: 50px;
+        margin: 30px;
         border-radius: 100px;
         padding: 15px 20px;
     }

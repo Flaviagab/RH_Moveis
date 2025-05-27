@@ -2,7 +2,7 @@
      <div class="banner">
        <div class="conteudo-banner">
          <h1>Transforme seu espaço com móveis planejados sobmedida!</h1>
-         <a href="#produtos" class="btn btn-outline-light">Ver produtos</a>
+         <a href="#produtos" class="btn btn-outline-light">Ver mais</a>
        </div>
        <div class="container-imagem">
          <img class="imagem-banner cima img-fluid" src="imagens/imagembanner.jpg"
@@ -184,13 +184,14 @@
 
      <div id="sobre">
        <div class="quemsomos">
-         <img class="imagem-banner-sobre" src="imagens/bannerrh.jpg" alt="">
          <div class="conteudo-sobre">
            <div class="texto-sobre">
              <h3>QUEM SOMOS</h3>
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium libero delectus corporis et quis,
-               perferendis non. Laboriosam expedita molestias, rerum eligendi laborum earum, nesciunt esse excepturi
-               doloremque asperiores consectetur nisi?</p>
+             <p>A empresa iniciou em Abril de 2014, com apenas 2 integrantes: Rodrigo, marceneiro, e sua esposa Hilda que ajudava nas horas vagas, iniciando com apenas 1 máquina usada para cortar chapa. Com o passar dos anos e o aumento da demanda, tornou-se necessário ampliar o espaço físico e contratar mais pessoas. </p>
+             <p>Hilda largou sua profissão de professora para ajudar na empresa em tempo integral, atuando na realização de projetos e nas vendas. Rodrigo ficou responsável pela produção, pelos pedidos de materiais e pela montagem na casa dos clientes. Com o tempo e o crescimento da demanda, realizaram várias reformas, contratações e trocas de maquinário.</p>
+             <p>Hoje contam com uma equipe de mais de 10 colaboradores, incluindo equipe de montagem, vendedoras externas e maquinários de última geração. A produção se tornou 4.0 onde o corte e laminação é realizado por máquinas automáticas. Sendo uma CNC Router e coladeira de bordo automática.</p>
+              <p> RH Móveis Planejados fabricam móveis para Campo Mourão e toda região.
+               Com o sonho de expandir ainda mais e evoluir para entregar um móvel cada vez mais rico em acabamento e excelência .</p>
            </div>
            <div>
              <img class="baixo-sobre" src="imagens/colorblue.jpg" alt="">

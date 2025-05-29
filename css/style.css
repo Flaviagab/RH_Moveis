@@ -5,32 +5,41 @@
 }
 
 header {
-  a {
-    margin-top: 10px;
-  }
-
+ 
   position: relative;
-  display: inline-block;
+  display: block;
 }
 
-header .logo img {
+.logo img {
   margin: 10px 20px;
   width: 60px;
   height: 50px;
-  position: absolute;
-  left: 20px;
 }
 
-nav {
+.navbar {
   background-color: #160C28;
+  height: 90px;
 }
+
+.navbar-collapse, .collapse.show {
+  background-color: #160C28;
+  width: 100%;
+}
+
+.navbar-toggler {
+  border-color: #EFCB68;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(225,239,230,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+
 
 #navbar {
   transition: top 0.3s;
 }
 
 .nav-link {
-  margin: 20px 40px 20px 40px;
+  margin: 20px 30px;
   font-size: 20px;
   padding: 1px;
   transition: all 0.5s;
@@ -315,6 +324,22 @@ footer {
 
 /*ainda preciso arrumar a responsividade */
 
+
+@media (max-width: 1000px) {
+  .nav-link {
+    text-align: center;
+  }
+  .navbar-nav .nav-link{
+    margin: 5px;
+  }
+
+  .container-fluid{
+    width: 100%;
+  }
+  
+}
+
+
 @media (max-width: 768px) {
   .carrossel-cozinha .carousel-item {
     width: calc(100% - 100px);
@@ -335,10 +360,12 @@ footer {
     right: 5px;
   }
 
-  @media (max-width: 576px) {
+ 
+
+}
+
+ @media (max-width: 576px) {
     .carrossel-cozinha .carousel-item {
       width: 100%;
     }
   }
-
-}

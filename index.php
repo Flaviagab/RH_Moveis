@@ -23,13 +23,19 @@
 <body class="didact-gothic-regular">
 
   <header>
-    <nav id="navbar" class="fixed-top">
-      <ul class="nav nav-underline justify-content-center">
-        <li>
-          <a href="#" class="logo ">
+    <nav id="navbar" class="fixed-top navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a href="#" class="logo navbar-brand">
             <img src="imagens/logo.png" alt="Logo da empresa RH Móveis Planejados">
           </a>
-        </li>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-underline mx-auto">
+        
         <li class="nav-item">
           <a class="nav-link" title="Home" href="#">Home</a>
         </li>
@@ -43,7 +49,10 @@
           <a class="nav-link" title="Contato" href="contato">Contato</a>
         </li>
       </ul>
-    </nav>
+      
+    </div>
+  </div>
+</nav>
 
   </header>
   <main>

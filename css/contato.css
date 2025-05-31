@@ -1,7 +1,10 @@
 body {
-    background-color: #E1EFE6;
     color: #160C28;
     margin-top: 80px;
+}
+
+h2{
+    margin: 100px;
 }
 
 .container-central {

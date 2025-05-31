@@ -1,8 +1,8 @@
    <section class="body">
      <div class="banner">
        <div class="conteudo-banner">
-         <h1>Transforme seu espaço com móveis planejados sobmedida!</h1>
-         <a href="#produtos" class="btn btn-outline-light">Ver mais</a>
+         <h1>Transforme seu espaço com móveis planejados sob medida!</h1>
+         <a href="https://wa.me/5544998608027" target="_blank" class="btn btn-outline-light">Solicite um orçamento</a>
        </div>
        <div class="container-imagem">
          <img class="imagem-banner cima img-fluid" src="imagens/imagembanner.jpg"
@@ -11,9 +11,24 @@
            alt="Cor amarela servindo como fundo para a foto">
        </div>
      </div>
-     <div data-aos="fade-up">
-       <h2 class="titulo">CONHEÇA NOSSO TRABALHO</h2>
-     </div>
+
+    <div data-aos="fade-up">
+      <h2 class="titulo">VEJA NOSSAS FORMAS DE PAGAMENTO</h2>
+      <div class="row pagm">
+        <div class="formas col">
+          <h3>Forma de pagamento 1</h3>
+          <p>Existe essa forma de pagamento</p>
+        </div>
+        <div class="formas col">
+          <h3>Forma de pagamento 2</h3>
+          <p>Existe essa forma de pagamento</p>
+        </div>
+        <div class="formas col">
+          <h3>Forma de pagamento 3</h3>
+          <p>Existe essa forma de pagamento</p>
+        </div>
+        </div>
+    </div>
 
      <div id="produtos">
        <div class="carrossel">

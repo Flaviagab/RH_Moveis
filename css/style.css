@@ -5,7 +5,6 @@
 }
 
 header {
- 
   position: relative;
   display: block;
 }
@@ -28,7 +27,9 @@ header {
 
 .navbar-toggler {
   border-color: #EFCB68;
+  margin: 20px
 }
+
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(225,239,230,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
 }
@@ -43,26 +44,27 @@ header {
   font-size: 20px;
   padding: 1px;
   transition: all 0.5s;
+  color: #E1EFE6;
 }
 
 .nav-link:hover {
   color: #EFCB68;
 }
 
-.nav-link {
-  color: #E1EFE6;
+.nav-link:focus {
+  color: #E1EFE6 !important;
 }
 
+.dropdown-toggle.show,
+.dropdown-toggle:active {
+  color: #EFCB68 !important;
+}
 
-body{
+body {
   background-color: #E1EFE6;
 }
+
 .body {
-  min-height: 100vh;
-  padding-top: 50px;
-  background-image: linear-gradient(to bottom, #160C28 18%, #E1EFE6 30%);
-  background-repeat: no-repeat;
-  background-size: 100%;
   color: #160C28;
 }
 
@@ -76,8 +78,9 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 90px;
-  margin-bottom: 300px;
+  margin-bottom: 100px;
+  background-color: #160C28;
+  padding: 150px 0;
 
   img {
     margin-right: 80px;
@@ -98,7 +101,7 @@ body{
     font-size: 20px;
     padding: 10px 25px;
     align-self: center;
-    margin-top: 10px;
+    margin-top: 30px;
     border: #EFCB68 1px solid;
     border-radius: 30px;
     transition: all 0.5s;
@@ -134,10 +137,34 @@ body{
 
 }
 
+.pagm {
+  max-width: 100%;
+  margin: 40px;
+  margin-bottom: 200px;
+}
+
+.formas {
+  background-color: #160C28;
+  color: #E1EFE6;
+  padding: 60px;
+  margin: 15px;
+  border-radius: 40px;
+  box-shadow: 4px 4px 4px 4px #6c6c6c;
+
+  p {
+    color: #EFCB68;
+  }
+}
+
 .titulo {
+  margin: 80px 0 5px 60px;
   text-align: center;
-  font-weight: 600;
-  margin-bottom: 150px;
+  display: inline-block;
+  border-bottom: 2px solid #EFCB68;
+  padding-bottom: 4px;
+  font-weight: 300;
+  letter-spacing: 1px;
+
 }
 
 .titulo-carrossel {
@@ -288,7 +315,7 @@ footer {
   padding: 40px 30px 15px 30px;
   background-color: #160C28;
   color: #E1EFE6;
-  
+
   a {
     text-decoration: none;
     padding: 20px;
@@ -318,54 +345,33 @@ footer {
 
 
 
-
-
-
-
-/*ainda preciso arrumar a responsividade */
-
-
 @media (max-width: 1000px) {
   .nav-link {
     text-align: center;
   }
-  .navbar-nav .nav-link{
+
+  .navbar-nav .nav-link {
     margin: 5px;
   }
 
-  .container-fluid{
-    width: 100%;
-  }
-  
+
 }
 
-
-@media (max-width: 768px) {
-  .carrossel-cozinha .carousel-item {
-    width: calc(100% - 100px);
-  }
-
-  #carouselExample {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  #carouselExample .carousel-control-prev {
-    left: 5px;
-
-
-  }
-
-  #carouselExample .carousel-control-next {
-    right: 5px;
-  }
+@media (max-width: 850px) {
 
  
-
-}
-
- @media (max-width: 576px) {
-    .carrossel-cozinha .carousel-item {
-      width: 100%;
+ 
+  footer{
+    .links{
+      margin-top: 0px;
+    }
+    .icon{
+      display: block;
+      margin: 1px;
+    }
+    .conteudo-footer{
+      margin-top: 60px;
+      display: block
     }
   }
+}

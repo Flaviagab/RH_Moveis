@@ -20,7 +20,8 @@ header {
   height: 90px;
 }
 
-.navbar-collapse, .collapse.show {
+.navbar-collapse,
+.collapse.show {
   background-color: #160C28;
   width: 100%;
 }
@@ -160,10 +161,15 @@ body {
   margin: 80px 0 5px 60px;
   text-align: center;
   display: inline-block;
-  border-bottom: 2px solid #EFCB68;
   padding-bottom: 4px;
   font-weight: 300;
   letter-spacing: 1px;
+}
+
+.pgm-forma {
+  h2 {
+    border-bottom: 2px solid #EFCB68;
+  }
 
 }
 
@@ -241,8 +247,6 @@ body {
   filter: invert(1);
 }
 
-
-
 .botaovermais {
   display: flex;
   justify-content: center;
@@ -310,7 +314,6 @@ body {
 }
 
 
-
 footer {
   padding: 40px 30px 15px 30px;
   background-color: #160C28;
@@ -344,7 +347,6 @@ footer {
 
 
 
-
 @media (max-width: 1000px) {
   .nav-link {
     text-align: center;
@@ -359,19 +361,40 @@ footer {
 
 @media (max-width: 850px) {
 
- 
- 
-  footer{
-    .links{
+  .titulo {
+    display: block;
+    margin: 30px;
+    text-align: center;
+  }
+
+
+
+
+
+
+  
+  footer {
+    .links {
       margin-top: 0px;
     }
-    .icon{
+
+    .icon {
       display: block;
       margin: 1px;
     }
-    .conteudo-footer{
+
+    .conteudo-footer {
       margin-top: 60px;
       display: block
     }
   }
+}
+
+@media (max-width: 600px) {
+    .container-imagem{
+      display: none;
+    }
+    .conteudo-banner{
+      margin: 30px;
+    }
 }

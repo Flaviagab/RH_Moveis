@@ -35,7 +35,6 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-underline mx-auto">
-
             <li class="nav-item">
               <a class="nav-link" title="Home" href="#">Home</a>
             </li>
@@ -47,7 +46,7 @@
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="produto">Cozinha</a></li>
                   <li><a class="dropdown-item" href="#">Quarto</a></li>
-                  <li><a class="dropdown-item" href="#">Sala</a></li>
+                  <li><a class="dropdown-item" href="otacoisa">Sala</a></li>
                 </ul>
               </div>
             </li>

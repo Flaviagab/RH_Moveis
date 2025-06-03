@@ -271,44 +271,25 @@ body {
 }
 
 #sobre {
-  margin-bottom: 100px;
+  margin-top: 100px;
 }
 
 .quemsomos {
-  min-height: 550px;
+  height: 700px;
   margin-top: 30px;
-  position: relative;
-
-  .conteudo-sobre {
-    position: relative;
-    margin-left: 80px;
-  }
-
-  .imagem-banner-sobre {
-    margin-bottom: 10px;
-    width: 100%;
-    position: absolute;
-    z-index: 1;
-  }
-
-  .baixo-sobre {
-    border-radius: 40px;
-    position: absolute;
-    top: 80px;
-    left: -10px;
-    z-index: 2;
-    max-width: 750px;
-    height: 530px;
-  }
+  background-color: #160C28;
+  
 
   .texto-sobre {
     margin: 40px;
+    margin-left: 80px;
     height: 530px;
     max-width: 750px;
     position: absolute;
     z-index: 3;
-    background-color: #EFCB68;
-    border-radius: 40px;
+    color: #E1EFE6;
+    border: #EFCB68 1px solid;
+    border-radius: 60px;
     padding: 45px;
   }
 }
@@ -359,6 +340,8 @@ footer {
 
 }
 
+
+
 @media (max-width: 850px) {
 
   .titulo {
@@ -366,9 +349,6 @@ footer {
     margin: 30px;
     text-align: center;
   }
-
-
-
 
 
 

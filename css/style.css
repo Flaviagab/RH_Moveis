@@ -275,25 +275,15 @@ body {
 }
 
 .quemsomos {
-  height: 700px;
   margin-top: 30px;
   background-color: #160C28;
-  
 
-  .texto-sobre {
-    margin: 40px;
-    margin-left: 80px;
-    height: 530px;
-    max-width: 750px;
-    position: absolute;
-    z-index: 3;
+  .conteudo-sobre {
     color: #E1EFE6;
     border: #EFCB68 1px solid;
     border-radius: 60px;
-    padding: 45px;
   }
 }
-
 
 footer {
   padding: 40px 30px 15px 30px;
@@ -340,8 +330,6 @@ footer {
 
 }
 
-
-
 @media (max-width: 850px) {
 
   .titulo {
@@ -350,9 +338,6 @@ footer {
     text-align: center;
   }
 
-
-
-  
   footer {
     .links {
       margin-top: 0px;
@@ -367,6 +352,12 @@ footer {
       margin-top: 60px;
       display: block
     }
+  }
+
+  .conteudo-sobre{
+      padding: 0;
+      margin: 0;
+      height: auto;
   }
 }
 

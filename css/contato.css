@@ -9,26 +9,23 @@ body {
 }
 
 .container-central {
-    max-width: 800px;
     display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: #160C28;
-    padding: 10px;
+    padding: 20px;
     border-radius: 20px;
     color: #E1EFE6;
-    margin: 5px;
+    margin: 15px;
     box-sizing: border-box;
+    box-shadow: 4px 4px 4px 4px #6c6c6c;
 
     form {
         width: 100%;
         font-size: 20px;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        
 
         input {
-            width: 60%;
             padding: 10px;
             border: 1px solid #7c7b7e;
             border-radius: 5px;
@@ -40,7 +37,6 @@ body {
         }
 
         textarea {
-            width: 60%;
             border: 1px solid #7c7b7e;
             border-radius: 5px;
             margin-bottom: 25px;
@@ -80,21 +76,15 @@ body {
 }
 
 .iframe {
-    margin: 10px;
+    margin: 40px;
     display: flex;
     align-items: center;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 4px #6c6c6c;
 
     iframe {
         width: 100%;
         border-radius: 20px;
-    }
-}
-
-.endereco{
-    h2{
-        margin-top: 100px;
-        display: flex;
-        align-items: center;
     }
 }
 

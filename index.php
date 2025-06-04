@@ -24,7 +24,7 @@
 
   <header>
     <nav id="navbar" class="fixed-top navbar navbar-expand-lg navbar-expand-sm">
-      <div class="container-fluid">
+      <div class="container-fluid px-3">
         <a href="#" class="logo navbar-brand">
           <img src="imagens/logo.png" alt="Logo da empresa RH Móveis Planejados">
         </a>
@@ -40,9 +40,9 @@
             </li>
             <li class="nav-item">
               <div class="dropdown">
-                <button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Trabalhos
-                </button>
+                </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="produto">Cozinha</a></li>
                   <li><a class="dropdown-item" href="#">Quarto</a></li>

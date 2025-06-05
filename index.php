@@ -26,7 +26,7 @@
     <nav id="navbar" class="fixed-top navbar navbar-expand-lg navbar-expand-sm">
       <div class="container-fluid">
         <a href="#" class="logo navbar-brand">
-          <img src="imagens/logo.png" alt="Logo da empresa RH Móveis Planejados">
+          <img src="imagens/logo.png" alt="Logo da empresa RH Móveis Planejados" title="Home">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>

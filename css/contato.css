@@ -2,6 +2,10 @@ body {
     margin-top: 125px;
 }
 
+.container-fluid{
+    max-width: 100%;
+}
+
 .t-contact {
     margin-top: 60px;
     margin-bottom: 50px;
@@ -17,7 +21,6 @@ body {
     margin: 15px;
     box-sizing: border-box;
     box-shadow: 4px 4px 4px 4px #6c6c6c;
-    margin-left: 40px;
 
     form {
         width: 100%;
@@ -49,16 +52,21 @@ body {
         margin: 10px auto 0;
         margin-bottom: 40px;
         border-radius: 50px;
+        background-color: yellowgreen;
+        border: none;
+        &:hover{
+            border: none;
+        background-color: rgb(113, 147, 46);
+        }
     }
 }
 
 .links-social {
     margin-top: 30px;
     margin-bottom: 70px;
-    margin-left: 20px;
     text-align: center;
     align-items: center;
-
+    font-weight: 600px;
     a {
         display: block;
         width: 70%;
@@ -97,22 +105,18 @@ body {
     margin-bottom: 50px;
 }
 
-
-.botao-insta {
-    background-image: linear-gradient(to right, #8a3ab9, #fbad50, #e95950);
-    color: #E1EFE6 !important;
-    border: none;
-
-    &:hover {
-        background-image: linear-gradient(to right, #5e2d7a, #ac7b40, #943f39);
-        color: #E1EFE6;
-        border: none;
-    }
+.center{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
-
 @media (max-width: 780px) {
+    .links-social{
+        justify-content: center;
+    }
     .endereco {
         h2 {
             margin-top: 0;

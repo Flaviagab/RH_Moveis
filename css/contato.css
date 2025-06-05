@@ -17,13 +17,13 @@ body {
     margin: 15px;
     box-sizing: border-box;
     box-shadow: 4px 4px 4px 4px #6c6c6c;
+    margin-left: 40px;
 
     form {
         width: 100%;
         font-size: 20px;
         display: flex;
         flex-direction: column;
-        
 
         input {
             padding: 10px;
@@ -52,12 +52,17 @@ body {
     }
 }
 
-
 .links-social {
     margin-top: 30px;
     margin-bottom: 70px;
+    margin-left: 20px;
     text-align: center;
+    align-items: center;
 
+    a {
+        display: block;
+        width: 70%;
+    }
 
     .icon {
         text-align: center;
@@ -88,13 +93,28 @@ body {
     }
 }
 
-.maps{
+.maps {
     margin-bottom: 50px;
 }
 
+
+.botao-insta {
+    background-image: linear-gradient(to right, #8a3ab9, #fbad50, #e95950);
+    color: #E1EFE6 !important;
+    border: none;
+
+    &:hover {
+        background-image: linear-gradient(to right, #5e2d7a, #ac7b40, #943f39);
+        color: #E1EFE6;
+        border: none;
+    }
+}
+
+
+
 @media (max-width: 780px) {
-    .endereco{
-        h2{
+    .endereco {
+        h2 {
             margin-top: 0;
         }
     }

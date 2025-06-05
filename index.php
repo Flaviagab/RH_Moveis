@@ -24,7 +24,7 @@
 
   <header>
     <nav id="navbar" class="fixed-top navbar navbar-expand-lg navbar-expand-sm">
-      <div class="container-fluid px-3">
+      <div class="container-fluid">
         <a href="#" class="logo navbar-brand">
           <img src="imagens/logo.png" alt="Logo da empresa RH Móveis Planejados">
         </a>

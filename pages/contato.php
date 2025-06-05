@@ -6,7 +6,7 @@
         <h2 class="text-center t-contact">Entre em contato!</h2>
     </div>
     <div class="row justify-content-center">
-        <div class="col-12 col-sm-6">
+        <div class="col-12 col-sm-7">
             <div class="container-central">
                 <form action="" method="POST" id="contact-form">
                     <label for="name">Nome</label>
@@ -23,9 +23,9 @@
             </div>
         </div>
 
-        <div class="col-12 col-sm-6">
+        <div class="col-12 col-sm-5 justify-content-center">
             <div class="links-social">
-                <a class="icon botao btn btn-outline-light" href="https://www.instagram.com/_rh_moveis" target="_blank">
+                <a class="icon botao botao-insta btn btn-outline-light" href="https://www.instagram.com/_rh_moveis" target="_blank">
                     <i class="fa-brands fa-instagram"></i> Ir para o Instagram
                 </a>
                 <a class="icon botao btn btn-outline-light" href="https://wa.me/5544998608027" target="_blank">

@@ -15,6 +15,10 @@ header {
   height: 50px;
 }
 
+.container-fluid{
+  margin-right: 0;
+}
+
 .navbar {
   background-color: #160C28;
   height: 90px;
@@ -272,13 +276,17 @@ body {
 
 #sobre {
   margin-top: 100px;
+  height: 600px;
 }
 
 .quemsomos {
   margin-top: 30px;
   background-color: #160C28;
-
+  padding-top: 50px;
+ padding-bottom: 200px;
   .conteudo-sobre {
+    margin: 40px;
+    padding: 45px;
     color: #E1EFE6;
     border: #EFCB68 1px solid;
     border-radius: 60px;
@@ -317,7 +325,6 @@ footer {
 
 
 
-
 @media (max-width: 1000px) {
   .nav-link {
     text-align: center;
@@ -326,12 +333,9 @@ footer {
   .navbar-nav .nav-link {
     margin: 5px;
   }
-
-
 }
 
 @media (max-width: 850px) {
-
   .titulo {
     display: block;
     margin: 30px;
@@ -354,18 +358,17 @@ footer {
     }
   }
 
-  .conteudo-sobre{
-      padding: 0;
-      margin: 0;
-      height: auto;
+  .conteudo-sobre {
+    margin-bottom: 600px;
   }
 }
 
 @media (max-width: 600px) {
-    .container-imagem{
-      display: none;
-    }
-    .conteudo-banner{
-      margin: 30px;
-    }
+  .container-imagem {
+    display: none;
+  }
+
+  .conteudo-banner {
+    margin: 30px;
+  }
 }

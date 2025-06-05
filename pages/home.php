@@ -194,10 +194,7 @@
              </div>
            </div>
          </div>
-
        </div>
-
-
      </div>
 
      <div id="sobre">

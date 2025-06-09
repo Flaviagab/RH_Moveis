@@ -1,11 +1,3 @@
-function scrollCarousel(direction) {
-    const track = document.getElementById('carouselTrack');
-    const scrollAmount = 300 + 16;
-    track.scrollBy({
-        left: direction * scrollAmount * 3,
-        behavior: 'smooth'
-    });
-}
 
 let lastScrollTop = 0;
 navbar = document.getElementById("navbar");
@@ -19,6 +11,13 @@ window.addEventListener("scroll", function(){
     lastScrollTop = scrollTop;
 })
 
+
+function validarEmail(email){
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+}
+function validarTelefone(phone){
+    return /^\d{10,11}$/.test(phone);
+}
 
 form.addEventListener("submit", function(event){
     const form = document.getElementById('form');
@@ -59,7 +58,18 @@ form.addEventListener("submit", function(event){
         erroMessage.textContent = "Por favor, informe a sua mensagem.";
     }
 
-    if(nome != "" && email != "" && phone != "" && message != "" && cidade != "" && ambiente != ""){
+    let valid = true
+
+    if(!validarEmail(email)){
+        erroEmail.textContent = "E-mail inválido! Insira um e-mail válido"
+        valid = false
+    }
+     if(!validarTelefone(phone)){
+        erroPhone.textContent = "Telefone inválido! Insira um telefone válido"
+        valid = false
+    }
+
+    if(nome != "" && email != "" && phone != "" && message != "" && cidade != "" && ambiente != "" && valid == true){
         textForm.textContent = "Formulário enviado com sucesso!";
         textForm.classList.add("sucesso-message");
         form.reset();    
@@ -70,3 +80,11 @@ form.addEventListener("submit", function(event){
 document.getElementById('btnLimpar').addEventListener("click", function(){
        form.reset();
 })
+
+
+function abrirModal(src){
+    const imagem =document.getElementById('imagemAmpliada');
+    imagem.src = src;
+    const modal = new bootstrap.Modal(document.getElementById('modalImagem'));
+    modal.show();
+}

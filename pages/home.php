@@ -2,7 +2,7 @@
      <div class="banner">
        <div class="conteudo-banner">
          <h1>Transforme seu espaço com móveis planejados sob medida!</h1>
-         <a href="https://wa.me/5544998608027" target="_blank" class="btn btn-outline-light">Solicite um orçamento</a>
+         <a href="https://wa.me/5544998608027" target="_blank" class="btn btn-outline-light" title="Ir para o WhatsApp">Solicite um orçamento</a>
        </div>
        <div class="container-imagem">
          <img class="imagem-banner cima img-fluid" src="imagens/imagembanner.jpg"
@@ -15,172 +15,63 @@
      
 
        <div id="produtos">
-         <div id="carouselTrack" class="carouselTrack">
-           <div class="carrossel">
-             <h3 data-aos="fade-up" class="titulo-carrossel">Cozinha</h3>
+        <div class="container">
+          <h3 data-aos="fade-up" class="titulo-carrossel">Cozinha</h3>
+          
+         <div id="carouselMultiItem" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+  
+    <div class="carousel-item active">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <img src="imagens/cozinha-marrom.webp" class="d-block w-100 imagem-carrossel" alt="...">
+        </div>
+        <div class="col-12 col-md-4 d-none d-md-block">
+          <img src="imagens/cozinha-preto.jpg" class="d-block w-100 imagem-carrossel" alt="...">
+        </div>
+        <div class="col-12 col-md-4 d-none d-md-block">
+          <img src="imagens/cozinha-verde.jpg" class="d-block w-100 imagem-carrossel" alt="...">
+        </div>
+      </div>
+    </div>
 
-             <div data-aos="fade-up" class="carrossel-cozinha">
-               <div id="carouselExample" class="carousel slide">
-                 <div class="carousel-inner">
-                   <div class="carousel-item active">
-                     <div class="row">
-                       <div class="col-4">
-                         <img src="imagens/cozinha-verde.jpg" class="d-block w-100 imagem-carrossel" alt="Cozinha Verde">
-                       </div>
-                       <div class="col-4">
-                         <img src="imagens/cozinha-preto.jpg" class="d-block w-100 imagem-carrossel" alt="Cozinha Preta">
-                       </div>
-                       <div class="col-4">
-                         <img src="imagens/cozinha-marrom.webp" class="d-block w-100 imagem-carrossel"
-                           alt="Cozinha Marrom">
-                       </div>
-                     </div>
-                   </div>
-                   <div class="carousel-item">
-                     <div class="row">
-                       <div class="col-4">
-                         <img src="imagens/cozinha-preto.jpg" class="d-block w-100 imagem-carrossel"
-                           alt="Cozinha Preta 2">
-                       </div>
-                       <div class="col-4">
-                         <img src="imagens/cozinha-marrom.webp" class="d-block w-100 imagem-carrossel"
-                           alt="Cozinha Marrom 2">
-                       </div>
-                       <div class="col-4">
-                         <img src="imagens/cozinha-marrom.webp" class="d-block w-100 imagem-carrossel"
-                           alt="Cozinha Marrom 2">
+ 
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <img src="imagens/cozinha-marrom.webp" class="d-block w-100 imagem-carrossel" alt="...">
+        </div>
+        <div class="col-12 col-md-4 d-none d-md-block">
+          <img src="imagens/cozinha-preto.jpg" class="d-block w-100 imagem-carrossel" alt="...">
+        </div>
+        <div class="col-12 col-md-4 d-none d-md-block">
+          <img src="imagens/cozinha-verde.jpg" class="d-block w-100 imagem-carrossel" alt="...">
+        </div>
+      </div>
+    </div>
 
-                       </div>
-                     </div>
-                   </div>
-                 </div>
-                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                   <span class="visually-hidden">Previous</span>
-                 </button>
-                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                   <span class="visually-hidden">Next</span>
-                 </button>
-               </div>
-             </div>
-             <div class="botaovermais">
-               <a href="produto" class="botao btn btn-outline-light">Ver mais</a>
-             </div>
-           </div>
-         </div>
+  
+  </div>
+  
+  <button class="carousel-control-prev seta" type="button" data-bs-target="#carouselMultiItem" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next seta" type="button" data-bs-target="#carouselMultiItem" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+      
 
-
-         <div>
-           <div class="carrossel">
-             <h3 data-aos="fade-up" class="titulo-carrossel">Quarto</h3>
-             <div data-aos="fade-up" class="carrossel">
-               <div id="carouselExample2" class="carousel slide">
-                 <div class="carousel-inner">
-                   <div class="carousel-item active">
-                     <div class="row">
-                       <div class="col-4">
-                         <img src="imagens/cozinha-verde.jpg" class="d-block w-100 imagem-carrossel" alt="Cozinha Verde">
-                       </div>
-                       <div class="col-4">
-                         <img src="imagens/cozinha-preto.jpg" class="d-block w-100 imagem-carrossel" alt="Cozinha Preta">
-                       </div>
-                       <div class="col-4">
-                         <img src="imagens/cozinha-marrom.webp" class="d-block w-100 imagem-carrossel"
-                           alt="Cozinha Marrom">
-                       </div>
-                     </div>
-                   </div>
-                   <div class="carousel-item">
-                     <div class="row">
-                       <div class="col-4">
-                         <img src="imagens/cozinha-preto.jpg" class="d-block w-100 imagem-carrossel"
-                           alt="Cozinha Preta 2">
-                       </div>
-                       <div class="col-4">
-                         <img src="imagens/cozinha-marrom.webp" class="d-block w-100 imagem-carrossel"
-                           alt="Cozinha Marrom 2">
-                       </div>
-                       <div class="col-4">
-                         <img src="imagens/cozinha-marrom.webp" class="d-block w-100 imagem-carrossel"
-                           alt="Cozinha Marrom 2">
-
-                       </div>
-                     </div>
-                   </div>
-                 </div>
-                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
-                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                   <span class="visually-hidden">Previous</span>
-                 </button>
-                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
-                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                   <span class="visually-hidden">Next</span>
-                 </button>
-               </div>
-             </div>
-             <div class="botaovermais">
-               <a href="produto" class="botao btn btn-outline-light">Ver mais</a>
-
-             </div>
-           </div>
-         </div>
-
-         <div>
-           <div class="carrossel">
-             <h3 data-aos="fade-up" class="titulo-carrossel">Sala</h3>
-             <div data-aos="fade-up" class="carrossel">
-               <div id="carouselExample3" class="carousel slide">
-                 <div class="carousel-inner">
-                   <div class="carousel-item active">
-                     <div class="row">
-                       <div class="col-4">
-                         <img src="imagens/cozinha-verde.jpg" class="d-block w-100 imagem-carrossel" alt="Cozinha Verde">
-                       </div>
-                       <div class="col-4">
-                         <img src="imagens/cozinha-preto.jpg" class="d-block w-100 imagem-carrossel" alt="Cozinha Preta">
-                       </div>
-                       <div class="col-4">
-                         <img src="imagens/cozinha-marrom.webp" class="d-block w-100 imagem-carrossel"
-                           alt="Cozinha Marrom">
-                       </div>
-                     </div>
-                   </div>
-                   <div class="carousel-item">
-                     <div class="row">
-                       <div class="col-4">
-                         <img src="imagens/cozinha-preto.jpg" class="d-block w-100 imagem-carrossel"
-                           alt="Cozinha Preta 2">
-                       </div>
-                       <div class="col-4">
-                         <img src="imagens/cozinha-marrom.webp" class="d-block w-100 imagem-carrossel"
-                           alt="Cozinha Marrom 2">
-                       </div>
-                       <div class="col-4">
-                         <img src="imagens/cozinha-marrom.webp" class="d-block w-100 imagem-carrossel"
-                           alt="Cozinha Marrom 2">
-                       </div>
-                     </div>
-                   </div>
-                 </div>
-                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
-                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                   <span class="visually-hidden">Previous</span>
-                 </button>
-                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
-                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                   <span class="visually-hidden">Next</span>
-                 </button>
-               </div>
-             </div>
-
-             <div class="botaovermais">
-               <a href="produto" class="botao btn btn-outline-light">Ver mais</a>
-             </div>
-           </div>
-         </div>
        </div>
-     </div>
+        </div>
+
+<div class="botaovermais">
+               <a href="cozinha" class="botao btn btn-outline-light">Ver mais</a>
+             </div>
+
+
+
+
 
 <div class="pgm-forma" data-aos="fade-up">
        <h2 class="titulo">VEJA NOSSAS FORMAS DE PAGAMENTO</h2>

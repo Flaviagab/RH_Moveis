@@ -1,3 +1,20 @@
+document.querySelectorAll('.slider-wrapper').forEach(wrapper => {
+  const imageList = wrapper.querySelector('.image-list');
+  const prevBtn = wrapper.querySelector('.prev-slide');
+  const nextBtn = wrapper.querySelector('.next-slide');
+
+  prevBtn.addEventListener('click', () => {
+    const scrollAmount = imageList.clientWidth * -1;
+    imageList.scrollBy({ left: scrollAmount, behavior: "smooth" });
+  });
+
+  nextBtn.addEventListener('click', () => {
+    const scrollAmount = imageList.clientWidth * 1;
+    imageList.scrollBy({ left: scrollAmount, behavior: "smooth" });
+  });
+});
+
+
 
 let lastScrollTop = 0;
 navbar = document.getElementById("navbar");

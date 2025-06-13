@@ -47,6 +47,7 @@
                   <li><a class="dropdown-item" href="cozinha">Cozinha</a></li>
                   <li><a class="dropdown-item" href="quarto">Quarto</a></li>
                   <li><a class="dropdown-item" href="sala">Sala</a></li>
+                  <li><a class="dropdown-item" href="outro">Outros</a></li>
                 </ul>
               </div>
             </li>

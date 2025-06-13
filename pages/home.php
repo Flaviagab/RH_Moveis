@@ -18,12 +18,13 @@
        <div class="slider-wrapper">
          <button class="arrow-button slide-button prev-slide"><i class="fa-solid fa-chevron-left"></i></button>
          <div class="image-list">
-           <img src="imagens/cozinha-preto.jpg" alt="" class="image-item">
-           <img src="imagens/cozinha-verde.jpg" alt="" class="image-item">
-           <img src="imagens/cozinha-marrom.webp" alt="" class="image-item">
-           <img src="imagens/cozinha-preto.jpg" alt="" class="image-item">
-           <img src="imagens/cozinha-verde.jpg" alt="" class="image-item">
-           <img src="imagens/cozinha-marrom.webp" alt="" class="image-item">
+           <img src="fotos/cozinha-preto.jpg" alt="" class="image-item">
+           <img src="fotos/cozinha-verde.jpg" alt="" class="image-item">
+           <img src="fotos/cozinha14.webp" alt="" class="image-item">
+           <img src="fotos/cozinha-preto2.jpg" alt="" class="image-item">
+           <img src="fotos/cozinha1.jpg" alt="" class="image-item">
+           <img src="fotos/cozinha2.jpg" alt="" class="image-item">
+           <img src="fotos/cozinha3.jpg" alt="" class="image-item">
          </div>
          <button class="arrow-button slide-button next-slide"><i class="fa-solid fa-chevron-right"></i></button>
        
@@ -39,12 +40,14 @@
        <div class="slider-wrapper">
          <button class="arrow-button slide-button prev-slide"><i class="fa-solid fa-chevron-left"></i></button>
          <div class="image-list">
-           <img src="imagens/cozinha-preto.jpg" alt="" class="image-item">
-           <img src="imagens/cozinha-verde.jpg" alt="" class="image-item">
-           <img src="imagens/cozinha-marrom.webp" alt="" class="image-item">
-           <img src="imagens/cozinha-preto.jpg" alt="" class="image-item">
-           <img src="imagens/cozinha-verde.jpg" alt="" class="image-item">
-           <img src="imagens/cozinha-marrom.webp" alt="" class="image-item">
+           <img src="fotos/quartoDeCrianca1.webp" alt="" class="image-item">
+           <img src="fotos/quartoDeCrianca2.webp" alt="" class="image-item">
+           <img src="fotos/quarto2.jpg" alt="" class="image-item">
+           <img src="fotos/quarto4.jpg" alt="" class="image-item">
+           <img src="fotos/quarto8.webp" alt="" class="image-item">
+           <img src="fotos/quarto10.webp" alt="" class="image-item">
+           <img src="fotos/quarto15.jpg" alt="" class="image-item">
+           <img src="fotos/quarto16.webp" alt="" class="image-item">
          </div>
          <button class="arrow-button slide-button next-slide"><i class="fa-solid fa-chevron-right"></i></button>
        
@@ -52,7 +55,7 @@
      </div>
 
      <div class="botaovermais">
-       <a href="cozinha" class="botao btn btn-outline-light">Ver mais</a>
+       <a href="quarto" class="botao btn btn-outline-light">Ver mais</a>
      </div>
 
       <h3 data-aos="fade-up" class="titulo-carrossel">Sala</h3>
@@ -60,12 +63,14 @@
        <div class="slider-wrapper">
          <button class="arrow-button slide-button prev-slide"><i class="fa-solid fa-chevron-left"></i></button>
          <div class="image-list">
-           <img src="imagens/cozinha-preto.jpg" alt="" class="image-item">
-           <img src="imagens/cozinha-verde.jpg" alt="" class="image-item">
-           <img src="imagens/cozinha-marrom.webp" alt="" class="image-item">
-           <img src="imagens/cozinha-preto.jpg" alt="" class="image-item">
-           <img src="imagens/cozinha-verde.jpg" alt="" class="image-item">
-           <img src="imagens/cozinha-marrom.webp" alt="" class="image-item">
+          <img src="fotos/sala6.webp" alt="" class="image-item">
+           <img src="fotos/sala7.webp" alt="" class="image-item">
+           <img src="fotos/sala14.webp" alt="" class="image-item">
+           <img src="fotos/sala1.jpg" alt="" class="image-item">
+           <img src="fotos/sala3.webp" alt="" class="image-item">
+           <img src="fotos/sala4.webp" alt="" class="image-item">
+           <img src="fotos/sala5.webp" alt="" class="image-item">
+           
          </div>
          <button class="arrow-button slide-button next-slide"><i class="fa-solid fa-chevron-right"></i></button>
        
@@ -73,7 +78,7 @@
      </div>
 
      <div class="botaovermais">
-       <a href="cozinha" class="botao btn btn-outline-light">Ver mais</a>
+       <a href="sala" class="botao btn btn-outline-light">Ver mais</a>
      </div>
 
   

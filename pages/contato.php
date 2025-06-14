@@ -48,8 +48,8 @@
                     <div id="textForm" class="erro-message"></div>
                 </div>
                 <div class="botoes">
-                    <button class="botao btn btn-outline-light enviar" type="submit" id="botao">Enviar</button>
-                    <button class="botao btn btn-outline-light limpar" type="button" id="btnLimpar">Limpar</button>
+                    <button class="botao btn btn-outline-light enviar" title="Enviar" type="submit" id="botao">Enviar</button>
+                    <button class="botao btn btn-outline-light limpar" title="Limpar" type="button" id="btnLimpar">Limpar</button>
                 </div>
             </form>
 
@@ -59,13 +59,13 @@
     </div>
     <div class="justify-content-center center">
         <div class="links-social">
-            <a class="icon botao botao-insta btn btn-outline-light" href="https://www.instagram.com/_rh_moveis" target="_blank">
+            <a class="icon botao botao-insta btn btn-outline-light" title="Instagram" href="https://www.instagram.com/_rh_moveis" target="_blank">
                 <i class="fa-brands fa-instagram"></i> Ir para o Instagram
             </a>
-            <a class="icon botao botao-wtp btn btn-outline-light" href="https://wa.me/5544998608027" target="_blank">
+            <a class="icon botao botao-wtp btn btn-outline-light" title="WhatsApp" href="https://wa.me/5544998608027" target="_blank">
                 <i class="fa-brands fa-whatsapp"></i> Ir para o WhatsApp
             </a>
-            <a class="icon botao botao-fb btn btn-outline-light" href="https://www.facebook.com/rhmoveisplanejado" target="_blank">
+            <a class="icon botao botao-fb btn btn-outline-light" title="Facebook" href="https://www.facebook.com/rhmoveisplanejado" target="_blank">
                 <i class="fa-brands fa-facebook"></i> Ir para o Facebook
             </a>
         </div>

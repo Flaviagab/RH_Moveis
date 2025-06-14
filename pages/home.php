@@ -5,7 +5,7 @@
          <a href="https://wa.me/5544998608027" target="_blank" class="btn btn-outline-light" title="Ir para o WhatsApp">Solicite um orçamento</a>
        </div>
        <div class="container-imagem">
-         <img class="imagem-banner cima img-fluid" src="imagens/imagembanner.jpg"
+         <img class="imagem-banner cima img-fluid" src="fotos/cozinha2.jpg"
            alt="Uma foto de uma cozinha que foi um dos trabalhos da empresa">
          <img class="imagem-banner baixo img-fluid" src="imagens/color.jpg"
            alt="Cor amarela servindo como fundo para a foto">
@@ -15,6 +15,7 @@
 
      <h3 data-aos="fade-up" class="titulo-carrossel">Cozinha</h3>
      <div data-aos="fade-up" class="container-carrossel">
+  
        <div class="slider-wrapper">
          <button class="arrow-button slide-button prev-slide"><i class="fa-solid fa-chevron-left"></i></button>
          <div class="image-list">
@@ -32,7 +33,7 @@
      </div>
 
      <div class="botaovermais">
-       <a href="cozinha" class="botao btn btn-outline-light">Ver mais</a>
+       <a href="cozinha" class="botao btn btn-outline-light" title="Ver mais">Ver mais</a>
      </div>
 
       <h3 data-aos="fade-up" class="titulo-carrossel">Quarto</h3>
@@ -55,7 +56,7 @@
      </div>
 
      <div class="botaovermais">
-       <a href="quarto" class="botao btn btn-outline-light">Ver mais</a>
+       <a href="quarto" class="botao btn btn-outline-light" title="Ver mais">Ver mais</a>
      </div>
 
       <h3 data-aos="fade-up" class="titulo-carrossel">Sala</h3>
@@ -78,7 +79,7 @@
      </div>
 
      <div class="botaovermais">
-       <a href="sala" class="botao btn btn-outline-light">Ver mais</a>
+       <a href="sala" class="botao btn btn-outline-light" title="Ver mais">Ver mais</a>
      </div>
 
   
@@ -86,7 +87,7 @@
 
      <div class="pgm-forma" data-aos="fade-up">
        <h2 class="titulo">VEJA NOSSAS FORMAS DE PAGAMENTO</h2>
-       <div class="row pagm">
+       <div class="row pagm text-center">
          <div class="formas col">
            <h3>À vista no cartão</h3>
            <p>Pague à vista no cartão e garanta praticidade e segurança!</p>

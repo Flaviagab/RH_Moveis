@@ -1,3 +1,8 @@
+<?php
+  $base = "http://{$_SERVER['SERVER_NAME']}{$_SERVER['SCRIPT_NAME']}";
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -6,7 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>RH Móveis Planejados</title>
 
-  <base href="http://localhost/1A/RH_Moveis/">
+  <base href="<?=$base?>">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,8 +45,8 @@
             </li>
             <li class="nav-item">
               <div class="dropdown">
-                <a class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Trabalhos
+                <a class="nav-link dropdown-toggle" title="Projetos" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Projetos
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="cozinha">Cozinha</a></li>
@@ -100,13 +105,13 @@
 
         <div class="col-5">
           <div class="links">
-            <a class="icon" href="https://www.instagram.com/_rh_moveis" target="_blank">
+            <a class="icon" title="Instagram" href="https://www.instagram.com/_rh_moveis" target="_blank">
               <i class="fa-brands fa-instagram"></i>
             </a>
-            <a class="icon" href="https://wa.me/5544998608027" target="_blank">
+            <a class="icon" title="WhatsApp" href="https://wa.me/5544998608027" target="_blank">
               <i class="fa-brands fa-whatsapp"></i>
             </a>
-            <a class="icon" href="https://www.facebook.com/rhmoveisplanejado" target="_blank">
+            <a class="icon" title="Facebook" href="https://www.facebook.com/rhmoveisplanejado" target="_blank">
               <i class="fa-brands fa-facebook"></i>
             </a>
           </div>

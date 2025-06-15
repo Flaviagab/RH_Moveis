@@ -1,5 +1,5 @@
 <?php
-  $base = "http://{$_SERVER['SERVER_NAME']}{$_SERVER['SCRIPT_NAME']}";
+  $base = "https://{$_SERVER['SERVER_NAME']}{$_SERVER['SCRIPT_NAME']}";
 ?>
 
 
@@ -95,7 +95,7 @@
   <footer>
     <div class="container text-center">
       <div class="row">
-        <div class="col">
+        <div class="col-md-7 col-sm-12">
           <div class="conteudo-footer">
             <p>Telefone: (44) 99860-8027</p>
             <p>Endereço: R. Francisco Preisner, 159 - Jardim Santa Cruz, Campo Mourão - PR, 87309-600</p>
@@ -103,8 +103,8 @@
           </div>
         </div>
 
-        <div class="col-5">
-          <div class="links">
+        <div class="col-md-5 col-sm-12">
+          <div class="links d-flex justify-content-center">
             <a class="icon" title="Instagram" href="https://www.instagram.com/_rh_moveis" target="_blank">
               <i class="fa-brands fa-instagram"></i>
             </a>
